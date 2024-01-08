@@ -1,0 +1,163 @@
+/* *common shared style */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* ?new-yer-banner section */
+.banner {
+  position: relative;
+  top: 50px;
+  left: 200px;
+}
+.new-year-celebration {
+  position: absolute;
+  top: 22%;
+  left: 30%;
+  /* transform: translate(-20%, -50%); */
+}
+.banner-text {
+  width: 1320px;
+  height: 600px;
+  position: relative;
+}
+.gradient {
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+img {
+  height: 600px;
+  width: 1320px;
+  object-fit: cover;
+  display: block;
+  align-items: center;
+}
+.banner-poster h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  font-family: Merriweather;
+}
+.banner-poster h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 68px;
+  font-weight: 900;
+  line-height: 48px;
+  font-family: Merriweather;
+}
+
+/* ?65% off area style */
+.offer-text {
+  align-items: center;
+}
+.offer {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 40px;
+  margin-bottom: 5px;
+}
+.deals {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+.categories {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+}
+.new-year-img {
+  width: 300px;
+  height: auto;
+  flex-shrink: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* ?welcome party section style */
+.welcome {
+  position: relative;
+  top: 50px;
+  left: 200px;
+}
+
+.welcome-party {
+  height: 600px;
+  width: 1320px;
+  position: relative;
+}
+.for-gradient {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.party-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+.party-text-contant {
+  position: absolute;
+  top: 22%;
+  left: 10%;
+}
+.welcome-party-text {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  text-align: left;
+}
+.welcome-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+.join {
+  color: #fff;
+  text-align: left;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.welcome-party-text .welcome-text .join {
+  padding: 0 20px;
+  margin-left: 100px;
+}
+
+/* ?join place section style */
+.join-place{
+  height: 400px;
+  width: 800px;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  position: relative;
+  top: 50px;
+  left: 450px;
+  margin-top: 100px;
+}
