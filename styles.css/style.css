@@ -1,13 +1,20 @@
+/** FONT FAMILY LINK */
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* *common shared style */
+/* * COMMON SHARED STYLES */
 
 body {
-  font-family: 'Open Sans', sans-serif;
+
+  /* font-family: 'Open Sans', sans-serif; */
+
+  font-family: 'Inter', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 .sb {
@@ -84,7 +91,7 @@ body {
   color: #f00;
   text-align: center;
   font-family: Inter;
-  font-size: 80px;
+  font-size: 70px;
   font-style: normal;
   font-weight: 700;
 }
@@ -95,6 +102,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: normal;
+  margin-top: 30px;
 }
 .categories {
   color: #070211;
@@ -182,6 +190,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 48px;
+  margin-left: 30px;
 }
 
 .welcome-party-text .welcome-text .join {
@@ -487,6 +496,26 @@ body {
   font-weight: 600;
   line-height: normal;
   text-transform: capitalize;
+}
+
+.subscribe {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.subscribe-p {
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 /* FOOTER */
