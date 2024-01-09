@@ -1,18 +1,8 @@
-/** FONT FAMILY LINK */
-
-
+/** COMMON SHARED STYLES */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-/* * COMMON SHARED STYLES */
-
-body {
-
-  /* font-family: 'Open Sans', sans-serif; */
-
   font-family: 'Inter', sans-serif;
   font-family: 'Merriweather', serif;
 }
@@ -251,7 +241,7 @@ body {
   text-transform: uppercase;
 }
 
-/* COMING SOON */
+/*? COMING SOON */
 .coming-soon {
   margin-top: 120px;
   height: 464px;
@@ -322,7 +312,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* HOLIDAY SALE */
+/*? HOLIDAY SALE */
 .holiday-sale {
   margin-top: 120px;
   height: 986px;
@@ -403,7 +393,7 @@ body {
 
 }
 
-/* PORTFOLIO */
+/*? PORTFOLIO */
 .portfolio {
   margin-top: 100px;
 }
@@ -419,7 +409,8 @@ body {
   height: 450px;
 }
 .portfolio .album .item img:hover {
-  transform: scale(1.1,1.1);
+  transform: scale(1.05);
+  transition: 0.5s;
   height: 100%;
   width: 100%;
 }
@@ -440,7 +431,7 @@ body {
   font-weight: 400;
 }
 
-/* NEWSLETTER */
+/*? NEWSLETTER */
 .newsletter {
   margin-top: 120px;
   border-radius: 16px;
@@ -518,7 +509,7 @@ body {
   line-height: 32px;
 }
 
-/* FOOTER */
+/*? FOOTER */
 footer {
   margin-top: 100px;
   background: #070211;
